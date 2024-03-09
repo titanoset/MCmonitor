@@ -1,5 +1,5 @@
 # При первом запуске потребуется: 
-1. Установить Node.js я использую 18.18.2 (https://nodejs.org/en/download/)
+1. Установить Node.js я использую 18.18.2 (https://nodejs.org/dist/v18.18.2/)
 2. Установить модули (npm i/npm install)
 3. Конфигурация серверов в папке servers
    ```module.exports = {
