@@ -2,7 +2,6 @@
 1. Установить Node.js я использую 18.18.2 (https://nodejs.org/en/download/)
 2. Установить модули (npm i/npm install)
 3. Конфигурация серверов в папке servers
-   В папке servers есть пример конфигурации сервера
    ```module.exports = {
        config: {
          host: 'Айпи сервера',
