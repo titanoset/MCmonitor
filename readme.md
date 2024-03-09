@@ -23,7 +23,8 @@
        "Server 2"
    ]
 5. Конфигурация .env (Вам уже надан файл .env.example просто переименуйте его в .env)
-   ```TOKEN=Токен вашего дискорд бота, его можно получить на сайте https://discord.com/developers/applications
-      DISCORD_CHANNEL_ID=Айди канала в который будет отправлятся весь мониторинг
+   ```
+   TOKEN=Токен вашего дискорд бота, его можно получить на сайте https://discord.com/developers/applications
+   DISCORD_CHANNEL_ID=Айди канала в который будет отправлятся весь мониторинг
 6. Запустить скрипт (npm start)
 
