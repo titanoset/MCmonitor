@@ -76,10 +76,17 @@ function formatEmbed(data, serverConfig, namemc, isRestarting) {
     .setColor(color)
     .setTitle(namemc)
     .setDescription(`Статус сервера: ${online}`)
-    .addFields(fields)
-    .setImage(serverConfig.img)
-    .setThumbnail(serverConfig.icon)
-    .setFooter({ text: serverConfig.footerr });
+    .addFields(fields);
+
+  if (serverConfig.img) {
+    embed.setImage(serverConfig.img);
+  }
+
+  if (serverConfig.icon) {
+    embed.setThumbnail(serverConfig.icon);
+  }
+
+  embed.setFooter({ text: serverConfig.footerr });
 
   return embed;
 }
